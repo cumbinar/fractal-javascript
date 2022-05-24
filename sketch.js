@@ -1,7 +1,4 @@
-// Coding Rainbow
-// Daniel Shiffman
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/0jjeOYMjmDU
+//Fractal interactivo//
 
 var angle = 0;
 var slider;
