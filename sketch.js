@@ -4,7 +4,7 @@ var angle = 0;
 var slider;
 
 function setup() {
-  createCanvas(600, 500);
+  createCanvas(600, 400);
   slider = createSlider(0, TWO_PI, PI / 4, 0.01);
 }
 
@@ -12,8 +12,8 @@ function draw() {
   background(51);
   angle = slider.value();
   stroke(255);
-  translate(300, height-25);
-  branch(150);
+  translate(300, height-15);
+  branch(120);
 }
 
 function branch(len) {
